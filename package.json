@@ -1,0 +1,22 @@
+{
+  "name": "typeapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Guilherme Cezarino Felipe",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^18.16.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
