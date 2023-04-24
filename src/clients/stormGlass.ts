@@ -13,7 +13,7 @@ export class StormGlass {
       `https://api.stormglass.io/v2/weather/point?params=${this.stormGlassAPIParams}&source=${this.stormGlassAPISource}&${lat}&lng=${lng}`, 
       {
         headers: {
-            Authorization: 'a026b27e-e245-11ed-a654-0242ac130002-a026b2ec-e245-11ed-a654-0242ac130002'
+            Authorization: 'Your Auth Key'
         }
       }
       );
